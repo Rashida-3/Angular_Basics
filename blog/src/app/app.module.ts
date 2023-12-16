@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { SignInComponent } from './user-auth/sign-in/sign-in.component';
-import { UserListComponent } from './user-list/user-list.component';
+import { StyleListComponent } from './style-list/style-list.component';
 import { StudentListComponent } from './student-list/student-list.component';
 import { CountryListComponent } from './country-list/country-list.component';
 
@@ -15,9 +15,9 @@ import { CountryListComponent } from './country-list/country-list.component';
     LoginComponent,
     RegisterComponent,
     SignInComponent,
-    UserListComponent,
+    StyleListComponent,
     StudentListComponent,
-    CountryListComponent
+    CountryListComponent,
   ],
   imports: [
     BrowserModule
