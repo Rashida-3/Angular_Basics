@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Basic Rule of Style';
+  title = 'Propert_Binding';
+  name="peter"
+  disable=false;
+  title1 = 'If-else condition';
+  show='back'
+
 }
