@@ -1,0 +1,36 @@
+<h1>{{title}}</h1>
+<h1>{{title1}}</h1>
+<button (click)="getData('hello')"> Call Function</button>
+<br /> <br />
+
+<input type="text" #box (keyup)="getData(box.value)" placeholder="event keyup" />
+<br /> <br />
+
+<input type="text" #box1 (keydown)="getData(box1.value)" placeholder="event keydown" />
+<br /> <br />
+
+<input type="text" #box2 (blur)="getData(box2.value)" placeholder="event blur" />
+<br /> <br />
+
+<input type="text" #box3 (input)="getData(box3.value)" placeholder="event input" />
+
+
+<h1 (mouseover)="getData('over')">Code step by step</h1>
+<h1 (mouseover)="getData('leave')">Rashida Ansari</h1>
+
+<!-- get input box value -->
+
+<input type="text" #box4 placeholder="Enter Name" name="name" />
+
+
+<!-- get value after writing  -->
+<button (click)="getValue(box4.value)">Click</button>
+
+<p>
+  Box value is: {{displayVal}}
+</p>
+
+<h2>{{title2}}</h2>
+<button (click)="counter('minus')">--</button>
+<p>Count : {{count}}</p>
+<button (click)="counter('add')">++</button>

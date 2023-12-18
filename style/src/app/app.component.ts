@@ -6,16 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'blog'; 
-  // making button and called
-  data="hello code"
-  num=100
-  getName(name:string,secondName:string)
-  {
-    alert(name);
-    alert(secondName);
-  }
-
-  
+  title = 'style';
 }
- 
