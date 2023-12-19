@@ -6,8 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Basic Rule of Style';
-  title1='Multiple condition or else if';
-  color='blue';
-  // color='red';
+  title = 'header in Angular';
 }
