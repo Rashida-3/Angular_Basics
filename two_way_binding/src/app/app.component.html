@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+
+  <input type="text" [(ngModel)]="name">
+
+  <h3>{{name}}</h3>
+
+  <!-- template reference varible -->
+
+  <h1>{{title1}}</h1>
+  <input type="text" #box name="user" placeholder="Enter user name">
+  <button (click)="getVal(box)">Call Function</button>
